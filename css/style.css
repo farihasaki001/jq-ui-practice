@@ -1,0 +1,72 @@
+ #draggable {
+    width: 100px;
+    height: 100px;
+    background: pink;
+  }
+ 
+  section{
+    padding: 20px 0;
+    overflow: hidden;
+   
+  }
+   .text-center{
+    text-align: center!important;
+  }
+  .container{
+    overflow: hidden;
+     border:2px solid pink;
+    box-shadow:5px 5px 5px 5px pink;
+    text-align: center!important;
+  }
+  #draggable1 { 
+    width: 100px;
+     height: 100px;
+      padding: 0.5em; 
+      float: left; 
+      margin: 10px 10px 10px 0;
+      text-align: center;
+     }
+  #droppable1 { 
+    width: 150px;
+     height: 150px; 
+     padding: 0.5em;
+      float: left; 
+      margin: 10px;
+      text-align: center;
+       }
+
+.container{
+  
+  }
+  #resizable {
+   width: 150px; 
+   height: 150px;
+    padding: 0.5em; 
+  }
+  #resizable h3 { 
+    text-align: center;
+   margin: 0; 
+ }
+ #feedback { 
+  font-size: 1.4em; 
+}
+  #selectable .ui-selecting { 
+    background: #FECA40;
+     }
+  #selectable .ui-selected { 
+    background: #F39814; 
+    color: white; 
+  }
+  #selectable {
+   list-style-type: none;
+    margin: 0; 
+    padding: 0; 
+    width: 450px; 
+  }
+  #selectable li { 
+    margin: 3px;
+   padding: 1px; float: left;
+    width: 100px; height: 80px; 
+    font-size: 4em; 
+    text-align: center; }
+  </style>
